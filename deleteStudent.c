@@ -6,7 +6,7 @@
  * Return: nothing
  */
 
-void deleteStudent()
+void deleteStudent(void)
 {
 	int studentID;
 
@@ -14,6 +14,7 @@ void deleteStudent()
 	scanf("%d", &studentID);
 
 	int studentIndex = findStudentByID(studentID);
+
 	if (studentIndex == -1)
 	{
 		printf("Student ID %d not found\n", studentID);

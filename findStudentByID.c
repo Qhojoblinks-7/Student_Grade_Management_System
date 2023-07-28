@@ -3,6 +3,7 @@
 
 /**
  * findStudentByID -  a function that searches for student ID
+ * @studentID: an integer
  * Return: an int if success else -1
  */
 
@@ -18,5 +19,5 @@ int findStudentByID(int studentID)
 		}
 	}
 
-	return (-1)
+	return (-1);
 }

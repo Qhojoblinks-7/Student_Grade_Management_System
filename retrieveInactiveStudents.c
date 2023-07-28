@@ -1,5 +1,5 @@
 #include "main.h"
-#include <sdtio.h>
+#include <stdio.h>
 
 /**
  * retrieveInactiveStudents - a function that helps retrieve
@@ -7,7 +7,7 @@
  * Return: nothing
  */
 
-void retrieveInactiveStudents()
+void retrieveInactiveStudents(void)
 {
 	int inactiveStudentCount = 0;
 	int i;
@@ -50,6 +50,7 @@ void retrieveInactiveStudents()
 	int studentID;
 	int yes = 1;
 	int Yes = 1;
+
 	printf("Do you want to activate any inactive students? (Yes/No): ");
 	scanf(" %c", &choice);
 
@@ -59,6 +60,7 @@ void retrieveInactiveStudents()
 		scanf("%d", &studentID);
 
 		int studentIndex = findStudentByID(studentID);
+
 		if (studentIndex == -1 || students[studentIndex].isActive == 1)
 		{
 			printf("Invalid student ID or the student is already active.\n");
