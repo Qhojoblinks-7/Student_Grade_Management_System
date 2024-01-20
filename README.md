@@ -1,7 +1,8 @@
 # Student_Grade_Management_System
 📘 Student Grade Management System (C)  A simple student grade management system implemented in C. Add and manage student information, calculate averages, and find highest/lowest scoring students.  | [License](MIT License))
 
-![image](https://github.com/Qhojoblinks-7/Student_Grade_Management_System/assets/124244985/c4408555-b5a2-41b1-89cb-e371249e0b31)
+![image](https://github.com/Qhojoblinks-7/Student_Grade_Management_System/assets/124244985/62f8f22a-1166-4e34-8997-51ef8e1cc928)
+
 
 
 
